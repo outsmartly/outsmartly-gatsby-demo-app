@@ -1,0 +1,165 @@
+// Required
+@import '~bootstrap/scss/functions';
+
+$enable-responsive-font-sizes: true;
+$primary: #3a38bd;
+$secondary: #207b63;
+
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+);
+
+html {
+  --bs-primary: #{theme-color('primary')};
+}
+
+$headings-font-weight: 700;
+$navbar-nav-link-padding-x: 1rem;
+$spacer: 1rem;
+
+$spacers: (
+  0: 0,
+  1: (
+    $spacer * 0.25,
+  ),
+  2: (
+    $spacer * 0.5,
+  ),
+  3: $spacer,
+  4: (
+    $spacer * 1.5,
+  ),
+  5: (
+    $spacer * 3,
+  ),
+  6: (
+    $spacer * 5,
+  ),
+  7: (
+    $spacer * 7,
+  ),
+  8: (
+    $spacer * 9,
+  ),
+  9: (
+    $spacer * 11,
+  ),
+);
+
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/reboot';
+@import '~bootstrap/scss/type';
+@import '~bootstrap/scss/grid';
+@import '~bootstrap/scss/forms';
+@import '~bootstrap/scss/buttons';
+@import '~bootstrap/scss/nav';
+@import '~bootstrap/scss/navbar';
+@import '~bootstrap/scss/transitions';
+@import '~bootstrap/scss/card';
+
+@import '~bootstrap/scss/utilities';
+
+.sticky-top {
+  // There's seemingly a bug in Chrome where the navbar shifts 1 pixel up and down
+  // showing the background behind it while you scroll.
+  top: -1px;
+}
+
+.hero-section {
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    background: linear-gradient(
+      -47deg,
+      theme-color('secondary') 0%,
+      theme-color-level('secondary', -2) 100%
+    );
+    z-index: -1;
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+
+.hero-bottom {
+  position: absolute;
+  top: auto;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 90px;
+}
+
+body {
+  font-family: Lato, sans-serif;
+}
+
+header {
+  background-color: theme-color('secondary');
+}
+
+.nav-link-github {
+  .github-icon {
+    margin-left: 10px;
+    fill: rgba(255, 255, 255, 0.5);
+  }
+
+  &:hover .github-icon {
+    fill: #fff;
+  }
+}
+
+.navbar-brand svg {
+  fill: #fff;
+}
+
+section:nth-child(even) {
+  background-color: #f6f9fe;
+}
+
+section {
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  ul {
+    font-size: 1.2rem;
+    margin-top: 24px;
+  }
+}
+
+.section-image svg {
+  width: 100%;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a.card {
+  &:hover {
+    text-decoration: none;
+    box-shadow: 0 0 0px 3px theme-color('secondary');
+  }
+
+  .card-title {
+    color: #333;
+  }
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  fill: #ccc;
+
+  &.active {
+    fill: orange;
+  }
+}

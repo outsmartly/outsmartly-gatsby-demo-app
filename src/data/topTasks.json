@@ -1,0 +1,278 @@
+[
+  {
+    "name": "Accountants",
+    "starCount": 4,
+    "image": {
+      "url": "/images/accountant.jpg",
+      "description": "Local accountants"
+    },
+    "priceRange": {
+      "low": 55,
+      "high": 150
+    }
+  },
+  {
+    "name": "Baby Sitters",
+    "starCount": 3,
+    "image": {
+      "url": "/images/baby-sitter.jpg",
+      "description": "Local baby sitters"
+    },
+    "priceRange": {
+      "low": 8,
+      "high": 45
+    }
+  },
+  {
+    "name": "Car Repair",
+    "starCount": 2,
+    "image": {
+      "url": "/images/car-repair.jpg",
+      "description": "Local car repair"
+    },
+    "priceRange": {
+      "low": 210,
+      "high": 500
+    }
+  },
+  {
+    "name": "Event Staffing",
+    "starCount": 1,
+    "image": {
+      "url": "/images/event-staffing.jpg",
+      "description": "Local event staffing"
+    },
+    "priceRange": {
+      "low": 30,
+      "high": 60
+    }
+  },
+  {
+    "name": "Gift Wrapping",
+    "starCount": 3,
+    "image": {
+      "url": "/images/gift-wrapping.jpg",
+      "description": "Local gift wrapping"
+    },
+    "priceRange": {
+      "low": 20,
+      "high": 30
+    }
+  },
+  {
+    "name": "Grocery Shopping",
+    "starCount": 4,
+    "image": {
+      "url": "/images/grocery-shopping.jpg",
+      "description": "Local grocery shopping"
+    },
+    "priceRange": {
+      "low": 35,
+      "high": 45
+    }
+  },
+  {
+    "name": "Halloween Decorating",
+    "starCount": 3,
+    "image": {
+      "url": "/images/halloween.jpg",
+      "description": "Local Halloween decorating"
+    },
+    "priceRange": {
+      "low": 100,
+      "high": 130
+    }
+  },
+  {
+    "name": "House Cleaning",
+    "starCount": 2,
+    "image": {
+      "url": "/images/house-cleaning.jpg",
+      "description": "Local house cleaning"
+    },
+    "priceRange": {
+      "low": 50,
+      "high": 200
+    }
+  },
+  {
+    "name": "House Repair",
+    "starCount": 5,
+    "image": {
+      "url": "/images/house-repair.jpg",
+      "description": "Local house repair"
+    },
+    "priceRange": {
+      "low": 400,
+      "high": 450
+    }
+  },
+  {
+    "name": "Furniture Assembly",
+    "starCount": 5,
+    "image": {
+      "url": "/images/ikea.jpg",
+      "description": "Local furniture assembly"
+    },
+    "priceRange": {
+      "low": 25,
+      "high": 100
+    }
+  },
+  {
+    "name": "Interior Design",
+    "starCount": 1,
+    "image": {
+      "url": "/images/interior-design.jpg",
+      "description": "Local interior design"
+    },
+    "priceRange": {
+      "low": 120,
+      "high": 200
+    }
+  },
+  {
+    "name": "Moving",
+    "starCount": 2,
+    "image": {
+      "url": "/images/movers.jpg",
+      "description": "Local moving"
+    },
+    "priceRange": {
+      "low": 100,
+      "high": 200
+    }
+  },
+  {
+    "name": "Lawn Mowing",
+    "starCount": 5,
+    "image": {
+      "url": "/images/mow-grass.jpg",
+      "description": "Local lawn mowing"
+    },
+    "priceRange": {
+      "low": 25,
+      "high": 50
+    }
+  },
+  {
+    "name": "Music Recording",
+    "starCount": 5,
+    "image": {
+      "url": "/images/music-recording.jpg",
+      "description": "Local music recording"
+    },
+    "priceRange": {
+      "low": 50,
+      "high": 300
+    }
+  },
+  {
+    "name": "Organizing",
+    "starCount": 2,
+    "image": {
+      "url": "/images/organizing.jpg",
+      "description": "Local organizing"
+    },
+    "priceRange": {
+      "low": 50,
+      "high": 75
+    }
+  },
+  {
+    "name": "Piano Lessons",
+    "starCount": 5,
+    "image": {
+      "url": "/images/piano-lessons.jpg",
+      "description": "Local piano lessons"
+    },
+    "priceRange": {
+      "low": 5,
+      "high": 25
+    }
+  },
+  {
+    "name": "Plumbers",
+    "starCount": 3,
+    "image": {
+      "url": "/images/plumber.jpg",
+      "description": "Local plumbers"
+    },
+    "priceRange": {
+      "low": 50,
+      "high": 85
+    }
+  },
+  {
+    "name": "Research",
+    "starCount": 5,
+    "image": {
+      "url": "/images/research.jpg",
+      "description": "Local research"
+    },
+    "priceRange": {
+      "low": 200,
+      "high": 300
+    }
+  },
+  {
+    "name": "Ride Sharing",
+    "starCount": 3,
+    "image": {
+      "url": "/images/ride-share.jpg",
+      "description": "Local ride sharing"
+    },
+    "priceRange": {
+      "low": 5,
+      "high": 30
+    }
+  },
+  {
+    "name": "Snow Removal",
+    "starCount": 3,
+    "image": {
+      "url": "/images/snow-shoveling.jpg",
+      "description": "Local snow removal"
+    },
+    "priceRange": {
+      "low": 25,
+      "high": 45
+    }
+  },
+  {
+    "name": "Stand in Line",
+    "starCount": 5,
+    "image": {
+      "url": "/images/stand-in-line.jpg",
+      "description": "Local stand in line"
+    },
+    "priceRange": {
+      "low": 10,
+      "high": 100
+    }
+  },
+  {
+    "name": "Wall Painting",
+    "starCount": 4,
+    "image": {
+      "url": "/images/wall-painting.jpg",
+      "description": "Local wall painting"
+    },
+    "priceRange": {
+      "low": 100,
+      "high": 200
+    }
+  },
+  {
+    "name": "Yard Work",
+    "starCount": 5,
+    "image": {
+      "url": "/images/yard-work.jpg",
+      "description": "Local yard work"
+    },
+    "priceRange": {
+      "low": 60,
+      "high": 130
+    }
+  }
+]
