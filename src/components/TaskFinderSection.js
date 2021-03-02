@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { FakeLink } from './FakeLink';
 
 export function TaskFinderSection() {
   return (
@@ -54,9 +55,9 @@ export function TaskFinderSection() {
             />
           </div>
           <div className="text-center">
-            <button type="submit" className="btn btn-secondary btn-lg">
+            <FakeLink type="submit" className="btn btn-secondary btn-lg">
               Submit Request
-            </button>
+            </FakeLink>
           </div>
         </form>
       </div>

@@ -13,14 +13,9 @@ export function Header() {
           <b className="font-weight-bold">Task</b>Mallard
         </Link>
         <div className="navbar-inner">
-          <button
-            className="navbar-toggler d-lg-none"
-            type="button"
-            data-toggle="navbarToggler"
-            aria-label="Toggle navigation"
-          >
+          <FakeLink className="navbar-toggler d-lg-none" type="button">
             <span className="navbar-toggler-icon" />
-          </button>
+          </FakeLink>
           <nav className="collapse navbar-collapse">
             <ul className="navbar-nav" id="navbar-nav">
               <li className="nav-item active">
