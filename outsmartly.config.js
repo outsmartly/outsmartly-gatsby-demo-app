@@ -2,7 +2,7 @@ import { heroOverride } from './outsmartly/overrides/heroOverride';
 import { topTasksOverride } from './outsmartly/overrides/topTasksOverride';
 
 export default {
-  host: 'outsmartly-gatsby-demo-app.outsmartly.app',
+  host: 'gatsbyconf.outsmartly.app',
   environments: [
     {
       name: 'production',

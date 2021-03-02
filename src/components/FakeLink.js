@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export function FakeLink({ Component = 'a', children, ...rest }) {
+export function FakeLink({ as: Component = 'a', children, ...rest }) {
   return (
     <Component
       {...rest}
