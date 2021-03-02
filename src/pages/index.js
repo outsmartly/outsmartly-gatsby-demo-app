@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Head from 'react-helmet';
+import { graphql } from 'gatsby';
 
 import './index.scss';
 import { Header } from 'components/Header';
