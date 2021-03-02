@@ -1,8 +1,8 @@
 import * as React from 'react';
 
-export function FakeLink({ children, ...rest }) {
+export function FakeLink({ Component = 'a', children, ...rest }) {
   return (
-    <a
+    <Component
       {...rest}
       href="/"
       onClick={(event) => {
@@ -14,6 +14,6 @@ export function FakeLink({ children, ...rest }) {
       }}
     >
       {children}
-    </a>
+    </Component>
   );
 }

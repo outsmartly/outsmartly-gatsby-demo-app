@@ -13,7 +13,7 @@ export function Header() {
           <b className="font-weight-bold">Task</b>Mallard
         </Link>
         <div className="navbar-inner">
-          <FakeLink className="navbar-toggler d-lg-none" type="button">
+          <FakeLink as="div" className="navbar-toggler d-lg-none" type="button">
             <span className="navbar-toggler-icon" />
           </FakeLink>
           <nav className="collapse navbar-collapse">
