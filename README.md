@@ -1,6 +1,6 @@
 # Gatsby + Outsmartly demo app
 
-[Live Demo](https://outsmartly-gatsby-demo-app.outsmartly.app/)
+### [Live Demo](https://outsmartly-gatsby-demo-app.outsmartly.app/)
 
 This demo requires [Outsmartly](https://www.outsmartly.com/features), a new way of using [Edge Slice Rerendering](https://www.youtube.com/watch?v=W-tBI_n0m_w) to dynamically re-render only tiny slices of your application, leading to blazing speeds while keepign dynamic content such as Personalization and A/B Testing.
 
