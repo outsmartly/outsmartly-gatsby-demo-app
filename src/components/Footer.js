@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { FakeLink } from './FakeLink';
 
+// @outsmartly
 export function Footer() {
   return (
     <footer className="container py-5">
