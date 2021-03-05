@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+// @outsmartly
 export function OneColumnInfoSection({ title, description }) {
   return (
     <section className="bg-primary p-lg-7 p-3 py-5">
