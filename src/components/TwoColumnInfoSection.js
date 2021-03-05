@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+// @outsmartly
 export function TwoColumnInfoSection({ order, title, bullets, image }) {
   return (
     <section className="p-lg-7 p-3">
