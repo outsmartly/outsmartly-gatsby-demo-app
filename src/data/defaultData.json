@@ -1,7 +1,7 @@
 [
   {
     "hero": {
-      "headline": "The best fake company, because we have ducks.",
+      "headline": "The best fake company, because we have ducks. Demo Test.",
       "description": "Don't be fooled, this isn't a real company. But that won't stop us from pretending we are.",
       "cta": { "label": "Get Started", "href": "/get-started" }
     }
