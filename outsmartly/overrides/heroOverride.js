@@ -1,3 +1,4 @@
+import * as React from 'react';
 import Mustache from 'mustache';
 import { states } from './states';
 

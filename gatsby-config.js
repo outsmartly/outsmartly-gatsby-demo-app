@@ -40,6 +40,7 @@ module.exports = {
         // an HTTP/2 push. In the case of the JS files, this is not desirable because
         // it can cause download contention with more important resources, like fonts.
         mergeLinkHeaders: false,
+        mergeSecurityHeaders: false
       },
     },
   ],
