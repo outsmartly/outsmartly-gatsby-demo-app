@@ -1,8 +1,8 @@
 {
-  "name": "butcher-box",
+  "name": "outsmartly-gatsby-demo-app",
   "version": "1.0.0",
   "private": true,
-  "description": "Butcher Box",
+  "description": "Demonstration app using Outsmartly and Gatsby",
   "author": "Jay Phelps",
   "keywords": [
     "gatsby"
