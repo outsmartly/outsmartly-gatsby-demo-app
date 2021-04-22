@@ -29,7 +29,7 @@
     "sha1": "^1.1.1"
   },
   "devDependencies": {
-    "@outsmartly/gatsby-plugin-outsmartly": "^0.0.69",
+    "@outsmartly/gatsby-plugin-outsmartly": "0.0.74",
     "gatsby-plugin-netlify": "^2.11.0",
     "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-resolve-src": "^2.1.0",
